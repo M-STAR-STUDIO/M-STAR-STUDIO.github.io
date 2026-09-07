@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M Star Studio</title>
+<meta name="description" content="M Star Studio が制作したファンツールの一覧。">
+<meta property="og:title" content="M Star Studio">
+<meta property="og:description" content="M Star Studio が制作したファンツールの一覧。">
+<meta property="og:url" content="https://mstar-studio.com/">
+<meta name="theme-color" content="#0b0e11">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&display=swap">
+<style>
+  :root{--bg:#0b0e11;--panel:#141a20;--line:#2a333d;--text:#e6ebef;--text-2:#9aa7b3;--text-3:#66717c;--accent:#9fd6e0;--accent-2:#4fb3c4}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI","Hiragino Sans","Noto Sans JP","Yu Gothic UI",Meiryo,sans-serif;min-height:100vh;
+    background-image:radial-gradient(1200px 600px at 50% -10%,rgba(79,179,196,.10),transparent 60%),linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:100% 100%,100% 48px,48px 100%}
+  main{max-width:560px;margin:0 auto;padding:40px 20px 60px}
+  .logo{width:min(320px,80%);display:block;margin:0 auto 28px}
+  .label{font-family:Rajdhani,"Segoe UI",sans-serif;font-weight:700;letter-spacing:.22em;font-size:11px;color:var(--text-3);margin-bottom:10px}
+  .card{display:block;background:linear-gradient(180deg,var(--panel),#10151a);border:1px solid var(--line);border-radius:4px;padding:16px 18px;text-decoration:none;color:inherit;position:relative;margin-bottom:12px}
+  .card::before{content:"";position:absolute;left:0;top:0;width:3px;height:100%;background:linear-gradient(180deg,var(--accent-2),transparent 70%);opacity:.6}
+  .card h2{margin:0 0 4px;font-size:18px}
+  .card p{margin:0;font-size:13px;color:var(--text-2);line-height:1.6}
+  .card .go{display:block;margin-top:8px;font-family:Rajdhani,"Segoe UI",sans-serif;font-weight:700;letter-spacing:.15em;font-size:12px;color:var(--accent)}
+  footer{margin-top:40px;border-top:1px solid var(--line);padding-top:14px;font-size:12px;color:var(--text-3);line-height:1.7}
+  footer a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="logo.png" alt="M Star Studio">
+  <div class="label">PROJECTS</div>
+  <a class="card" href="/arknights-shibari-gacha/">
+    <h2>アークナイツ縛りガチャ</h2>
+    <p>全オペレーターからランダムに12体。引いたそのままの編成で挑む、縛りプレー用の非公式ファンツール。</p>
+    <span class="go">OPEN →</span>
+  </a>
+  <footer>
+    制作: M Star Studio / <a href="https://x.com/M3tarStudio96" target="_blank" rel="noopener noreferrer">お問い合わせ (X)</a><br>
+    各ツールは非公式のファンコンテンツであり、対象ゲームの権利者とは関係ありません。
+  </footer>
+</main>
+</body>
+</html>
